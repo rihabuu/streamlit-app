@@ -27,5 +27,5 @@ st.plotly_chart(fig)
 
 # 4. (Any other visualizations you'd like to add based on your dataset)
 
-st.caption('YOUR_NAME')
+st.caption('Rihab ZOUITINA')
 st.caption('Thank you for exploring the inflation data!')
