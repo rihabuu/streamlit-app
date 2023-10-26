@@ -3,8 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # Load your data (replace with the appropriate URL or filepath)
-data_url = 'C:\Users\Zouitina Rihab\Desktop\Projet DV'
-data = pd.read_csv(Monthly food Price Inflation Estimates by country.csv)
+data_url = 'https://www.kaggle.com/code/anshtanwar/food-price-inflation-import-and-eda/input?select=WLD_RTFP_country_2023-10-02.csv'
+data = pd.read_csv(data_url)
 
 st.header('Inflation Visualization Project')
 st.subheader('This page visualizes inflation rates for different countries over time.')
